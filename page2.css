@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hero:wght@400;700&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    width: 1440px;
+    height: 1912px;
+}
+.header {
+    color: #F9FAF8;
+    background: #1F2937;
+    padding: 30px 160px 60px 160px;
+    height: 400px;   
+}
+
+.header-top {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+   text-decoration: none; 
+   color: #F9FAF8;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button.sign-up {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin-top: 10px;
+}
+
+.image-holder {
+    background: slategray;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    height: 400px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    border-radius: 10px;
+    border-color: steelblue;
+}
+
+img { 
+    height: 100px;
+    width: 100px; 
+}
